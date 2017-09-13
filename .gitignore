@@ -19,3 +19,6 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+
+# Ignore .env file which holds the CLIENT_ID and CLIENT_SECRET
+.env

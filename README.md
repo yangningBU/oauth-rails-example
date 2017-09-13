@@ -17,6 +17,6 @@ Unfortunately this example lugs around a huge unnecessary Rails app. But the pri
 <img src="/public/oauth-github-setup-1.png" alt="Oauth App Create Page Filled Out" width="300px"/>
 - it's important that the home page URL and callback URL match what you have in your app routing
 - go through the "webhook" setup flow since it's required by Github, but we're not using it in this example
-
+<br/>
 <br/>
 *Note*: since I'm doing this all locally, I'm using a hack with the `lvh.me` domain whose DNS is mapped to 127.0.0.1. This will probably break at some point

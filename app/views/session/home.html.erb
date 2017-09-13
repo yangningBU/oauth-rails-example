@@ -1,0 +1,10 @@
+<h1>Testing Github's OAuth API</h1>
+<h3>Hello <span id="user"><%= @user ? @user['login'] : 'Stranger' %></span>!</h3>
+
+<% if @user %>
+  <img id="avatar" src="<%= @user['avatar_url'] %>">
+  <p>You have <%= pluralize(@user['public_repos'], "repo") %>.</p>
+  <p>Feel free to <a href="/logout">log out</a></p>
+<% else %>
+  <p>Why don't you sign in? <a href="/login">Log In</a></p>
+<% end %>
